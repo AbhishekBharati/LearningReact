@@ -1,4 +1,5 @@
 import Greeting from "./Greeting";
+import Status from "./Status";
 import UserProfile from "./UserProfile";
 
 const App = () => {
@@ -6,6 +7,7 @@ const App = () => {
     <div>
       <Greeting />
       <UserProfile />
+      <Status />
     </div>
   )
 }
